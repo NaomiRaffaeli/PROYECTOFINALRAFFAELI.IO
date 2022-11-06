@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url(img/rayas.webp);
+  background-size: repeat;
+  background-position: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.7em;
+  color: rgb(13, 53, 13);
+  margin: 16px 0px;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1em;
+  color: rgb(13, 53, 13);
+  font-weight: bolder;
+  margin: 3px;
+}
+h5 {
+  color: rgb(58, 58, 58);
+  font-size: 1.5em;
+}
+.cartitas {
+  color: aliceblue;
+}
+header {
+  background-color: bisque;
+}
+header .logo {
+  margin: 0;
+  padding: 25px 30px;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+}
+header a {
+}
+a.nav-link {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+a.nav-link:hover {
+  color: rgb(17, 87, 17);
+}
+ul {
+  list-style: none;
+}
+button {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 2px 3px;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: bisque;
+  background-color: bisque;
+}
+button:hover {
+  background-color: rgb(17, 87, 17);
+}
+
+#principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(img/fondo.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+#helasintacc {
+  background-color: rgb(17, 87, 17);
+  display: flex;
+  padding: 30px 20px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em;
+}
+#helasintacc .container {
+  text-align: center;
+  padding: 20px 12px;
+}
+
+.negrita {
+  color: black;
+  font-weight: bold;
+}
+
+.containercards {
+  max-width: 1400px;
+  margin: auto;
+  background-color: bisque;
+}
+
+.container {
+  color: rgb(236, 207, 168);
+  max-width: 1400px;
+  margin: auto;
+}
+
+#cartas .carta {
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+  color: antiquewhite;
+}
+
+.carta:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/img/chocolito.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/img/crema.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/img/fruagua.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.tabla {
+  background-color: rgb(13, 53, 13);
+}
+.tablita {
+  background-size: cover;
+}
+.parrafo-tabla {
+  margin-top: 75px;
+  margin-bottom: 15px;
+  color: black;
+  font-size: 1.75em;
+}
+th {
+  color: bisque;
+}
+td {
+  color: bisque;
+}
+.formulario {
+  background-color: rgb(13, 53, 13);
+  margin-top: 50px;
+}
+.formulario p {
+  color: black;
+  font-size: 1.75em;
+}
+.formu {
+  color: black;
+}
+.parrafo-gustos {
+  background-color: rgb(13, 53, 13);
+  font-size: 1.75em;
+  color: black;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.img-choco {
+  width: 390px;
+  height: 500px;
+  padding-left: 20px;
+  border-radius: 15px;
+  align-items: center center;
+}
+.img-crema {
+  width: 390px;
+  height: 500px;
+  padding-left: 20px;
+  border-radius: 15px;
+  align-items: center center;
+}
+.img-agua {
+  width: 390px;
+  height: 500px;
+  padding-left: 20px;
+  border-radius: 15px;
+  align-items: center center;
+}
+.img-ddl {
+  width: 390px;
+  height: 500px;
+  padding-left: 20px;
+  border-radius: 15px;
+  align-items: center center;
+}
+footer {
+  background-color: rgb(168, 149, 125);
+}
+
+footer p {
+  color: black;
+  text-align: end;
+  flex-direction: row;
+}
+.container-footer {
+  margin-top: 180px;
+}
+.carousel {
+  margin-top: 75px;
+}
+.gif {
+  width: 110px;
+  height: 100px;
+  margin-top: 0px;
+}
+
+@media (min-widht: 720px) {
+  #cartas .carta {
+    display: flex;
+  }
+
+  #gustos .imagenes-gustos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+  }
+}
