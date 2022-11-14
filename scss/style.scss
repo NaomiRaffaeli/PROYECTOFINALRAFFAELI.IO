@@ -1,5 +1,8 @@
 // Include any default variable overrides here (though functions won't be available)
 
+$font-family-sans-serif: "Roboto", sans-serif;
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -7,4 +10,5 @@
 @import "./pages/nuestrocomienzo";
 @import "./pages/nuestrosgustos";
 @import "./pages/promos";
-@import "./pages/contacto"
+@import "./pages/contacto";
+@import ".complements/bucles"
